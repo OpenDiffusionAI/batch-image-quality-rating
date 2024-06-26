@@ -12,3 +12,14 @@ I recommend setting up a venv
 - torch
 - transformers
 - pil
+
+## Usage
+python inference.py [--db path] [--image path] [--dir path] [--r] [--q4 | --q8]
+
+### Arguments
+- --db {path} : Path to an SQLite database file | Optional - To store results
+- --image {path} : Path to a single image
+- --dir {path} : Path to a folder of images
+- --r : Recursively search for images in the directory provided | Optional
+- --q4 : Load model with 4-bit quantization (~4GB + PyTorch) | Optional
+- --q8 : Load model with 8-bit quantization (~8GB + PyTorch) | Optional
