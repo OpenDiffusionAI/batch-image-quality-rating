@@ -8,5 +8,7 @@ I recommend setting up a venv
 
 ## Dependencies
 torch
+
 transformers
+
 pil
