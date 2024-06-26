@@ -4,6 +4,10 @@ Simple python script to rate image quality and aesthetics using one-align
 ## Requirements
 ### Hardware
 The unquantized version of this model takes about 16GB of VRAM, luckily, JIT quantization doesn't seem to cause much quality loss.
+- 3090 - 4090: Can run full unquantized
+- 3080+ : Can run in 8-bit
+- 2070+ : Can run in 4-bit
+
 ### Torch version
 This torch version worked for me with an NVIDIA card. I had issues with the latest version.
 ```shell
