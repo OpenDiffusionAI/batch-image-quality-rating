@@ -25,3 +25,11 @@ python inference.py [--db path] [--image path] [--dir path] [--r] [--q4 | --q8]
 - --r : Recursively search for images in the directory provided | Optional
 - --q4 : Load model with 4-bit quantization (~4GB + PyTorch) | Optional
 - --q8 : Load model with 8-bit quantization (~8GB + PyTorch) | Optional
+
+## Behavior
+Prints ratings to console as they are generated
+
+Stores ratings in SQLite database if path provided
+- Will create new database if one does not exist in that location
+
+![image](https://github.com/OpenDiffusionAI/batch-image-quality-rating/assets/172853169/0549f3d6-854b-4277-a43f-1828e900ab29)
