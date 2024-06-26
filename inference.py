@@ -61,7 +61,6 @@ model = AutoModelForCausalLM.from_pretrained(
     trust_remote_code=True, 
     torch_dtype=torch.float16, 
     device_map="auto", 
-    load_in_4bit=args.q4, 
     load_in_8bit=args.q8,
     quantization_config=bnb_config if args.q4 else None,
 )
