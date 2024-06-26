@@ -39,3 +39,7 @@ Stores ratings in SQLite database if path provided
 - Will create new database if one does not exist in that location
 
 ![image](https://github.com/OpenDiffusionAI/batch-image-quality-rating/assets/172853169/0549f3d6-854b-4277-a43f-1828e900ab29)
+
+## Credits
+Powered by https://github.com/Q-Future/Q-Align
+
