@@ -2,8 +2,10 @@
 Simple python script to rate image quality and aesthetics using one-align
 
 ## Requirements
-This torch version worked for me with an NVIDIA card
-
+### Hardware
+The unquantized version of this model takes about 16GB of VRAM, luckily, JIT quantization doesn't seem to cause much quality loss.
+### Torch version
+This torch version worked for me with an NVIDIA card. I had issues with the latest version.
 ```shell
 pip install torch==2.1.2 torchvision==0.16.2 torchaudio==2.1.2 xformers --index-url https://download.pytorch.org/whl/cu121 --upgrade
 ```
