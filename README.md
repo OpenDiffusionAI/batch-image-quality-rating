@@ -14,13 +14,13 @@ This torch version worked for me with an NVIDIA card. I had issues with the late
 pip install torch==2.1.2 torchvision==0.16.2 torchaudio==2.1.2 xformers --index-url https://download.pytorch.org/whl/cu121 --upgrade
 ```
 ### Transformers version
-Transformers version 4.31.0 is required.
+Transformers version 4.36.1 is required.
 
 I recommend setting up a venv
 
 ## Dependencies
 - torch
-- transformers==4.31.0
+- transformers==4.36.1
 - pil
 
 ## Usage
